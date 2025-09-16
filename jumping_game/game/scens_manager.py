@@ -106,7 +106,7 @@ class Game:
                     next_features = get_next_obstacles_features(obstacle, self.obstacles)
                     game_data.extend(next_features)
                     
-                    save_game_data_to_csv(game_data, path)
+                    save_game_data_to_csv(game_data)
                     
                     self.game_state = "GAME_OVER" 
                     break 

@@ -24,6 +24,3 @@ OBSTACLE_SPEED = 5
 STARTING_OBSTACLE_SPEED = 5.0 #initial speed of obstacles
 SPEED_INCREASE_RATE = 0.002   # how fast the speed increases per frame
 WIN_SCORE = 500
-
-# Data logging settings
-path = 'C:\pypro\DaynamicDefficuletyAdjustment\jumping_game\logs\game_logs.csv'
